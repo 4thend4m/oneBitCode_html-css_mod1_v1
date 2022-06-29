@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    margin: auto auto;
+}
+
+#home{
+    height: max(80vh);
+    width: minmax(50px, auto);
+
+    margin: 0 1vw;
+}
+
+#home, .button{
+    transition: 0.5s all;
+}
+
+a.button{
+    background-color: #ff0000;
+    padding: min(0.5rem);
+    border-radius: 60px;
+
+    text-decoration: none;
+    font-family: 'Titan One', sans-serif;
+    color: #000000;
+    font-weight: 100;
+
+    margin: 10px;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.button:hover, #home:hover{
+    transform: scale(1.1);
+}

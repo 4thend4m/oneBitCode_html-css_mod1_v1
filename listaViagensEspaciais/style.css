@@ -1,0 +1,23 @@
+h1 + h4{
+    color: #ff0000;
+}
+
+li a{
+    color: #ffff00;
+}
+
+li > a{
+    color: #00ff00;
+}
+
+a[href='/test']{
+    background-color: #000000;
+}
+
+li:nth-of-type(even){
+    background-color: #00ffff;
+}
+
+li:nth-of-type(1){
+    color: #ff00ff;
+}

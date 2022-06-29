@@ -1,0 +1,36 @@
+body{
+    background-image: url(foguete.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section{
+    background-color: #000000;
+}
+
+h1{
+    font-size: 40px;
+    border: 4px dashed #0000ff;
+}
+
+h1,h4{
+    color: #004488;
+}
+
+li{
+    color: #00ff00;
+}
+
+.yellowText{
+    color: #ffff00;
+}
+
+#europe{
+    color: #000000;
+    background-color: #0fffff;
+}
+
+.bigText{
+    font-size: 44px;
+}
+
